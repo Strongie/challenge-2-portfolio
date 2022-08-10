@@ -6,7 +6,7 @@
   
   /* Element selectors */
   body {
-    background-color: rgb(176, 180, 241);
+background-color: rgb(248, 222, 190);
     margin: auto;
     
   }
@@ -34,7 +34,7 @@
     border-radius: 20px;
     text-align: center;
     box-shadow: 10px 10px 5px darkblue;
-  }
+ }
 
   figure {
    width: 200px;
@@ -46,17 +46,16 @@
 
    /* Class selector */
  .portfolio {
-  
-  margin: 50px;
-  border: 5px solid darkblue;
-  border-width: 5px;
-  padding: 10px;
-  float: left;
-  width: 50%;
-  background-color: aliceblue;
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 10px 10px 5px darkblue;
+    margin: 50px;
+    border: 5px solid darkblue;
+    border-width: 5px;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px darkblue;
   }
 
   .resume {
@@ -79,8 +78,9 @@
   }
 
   .about-me:hover, .portfolio:hover, .resume:hover {
-    background-color: yellow;
+    background-color: rgb(184, 180, 187);
   }
+
   .contact-details {
     margin: 50px;
     border: 5px solid darkblue;
@@ -106,5 +106,30 @@
   }
 
   p a:hover {
-    color: yellow;
+    color: rgb(7, 146, 41);
   }
+
+  section a:hover{
+    color: rgb(7, 146, 41);
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+      background: #66443f;
+    }
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: #8ac4ff;
+    }
+  }
+ 
