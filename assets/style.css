@@ -11,10 +11,9 @@
     
   }
   
-  header,
-  footer {
+  header {
     width: 100%;
-    height: 150px;
+    height: 350px;
     line-height: 100px;
     color: #191616;
     background-color: #90ccea;
@@ -22,17 +21,49 @@
     font-size: 150%;
     border: 5px solid darkblue;
   }
-  .menu{
-    display: inline;
+
+ .about-me {
+    width: 100%;
+    height: 500px;
+    line-height: 300px;
+    color: #191616;
+    background-color: #90ccea;
+    text-align: center;
+    font-size: 100%;
+    border: 5px solid darkblue;
   }
-  .about-me{
-    background-color: aqua;
-  }
+
   figure {
     width: 200px;
     background-color: #f0ead6;
+}
+ .portfolio {
+    width: 100%;
+    height: 500px;
+    line-height: 300px;
+    color: #191616;
+    background-color: #90ccea;
+    text-align: center;
+    font-size: 100%;
+    border: 5px solid darkblue;
   }
-  
+
+  .resume {
+    width: 100%;
+    height: 500px;
+    line-height: 300px;
+    color: #191616;
+    background-color: #90ccea;
+    text-align: center;
+    font-size: 100%;
+    border: 5px solid darkblue;
+  }
+
+  #my-photo {
+    position: relative;
+    align-items: center;
+  }
+    
   /* Class selector */
   .highlighted-text {
     font-weight: normal;
