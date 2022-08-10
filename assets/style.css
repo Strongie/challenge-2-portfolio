@@ -6,7 +6,7 @@
   
   /* Element selectors */
   body {
-    background-color: rgb(189, 194, 176);
+    background-color: rgb(176, 180, 241);
     margin: auto;
     
   }
@@ -16,7 +16,7 @@
     height: 350px;
     line-height: 100px;
     color: #191616;
-    background-color: #90ccea;
+    background-color: #e1f0a1;
     text-align: center;
     font-size: 150%;
     border: 5px solid darkblue;
@@ -76,6 +76,14 @@
   }
   
   /* ID selector */
-  #contact-section {
-    background-color: #f0ead6;
+  #contact-details {
+  margin: 50px;
+  border: 5px solid darkblue;
+  border-width: 5px;
+  padding: 10px;
+  float: left;
+  width: 50%;
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 20px;
   }
