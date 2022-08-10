@@ -31,8 +31,9 @@
     background-color: aliceblue;
     font-size: 100%;
     border: 5px solid darkblue;
-    text-align: center;
     border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 5px darkblue;
   }
 
   figure {
@@ -40,9 +41,10 @@
    height: 200px;
    margin-bottom: 50px;
    background-color: #f0ead6;
-   border: 10px solid #191616;
-   
-}
+   border: 5px solid #191616;
+   }
+
+   /* Class selector */
  .portfolio {
   
   margin: 50px;
@@ -54,6 +56,7 @@
   background-color: aliceblue;
   text-align: center;
   border-radius: 20px;
+  box-shadow: 10px 10px 5px darkblue;
   }
 
   .resume {
@@ -66,26 +69,42 @@
   background-color: aliceblue;
   text-align: center;
   border-radius: 20px;
+  box-shadow: 10px 10px 5px darkblue;
   }
-
-
-    
-  /* Class selector */
+ 
   .box-info-text {
     display: inline-flex;
     font-weight: normal;
     text-align: center;
   }
-  
-  /* ID selector */
-  #contact-details {
+
+  .about-me:hover, .portfolio:hover, .resume:hover {
+    background-color: yellow;
+  }
+  .contact-details {
     margin: 50px;
-  border: 5px solid darkblue;
-  border-width: 5px;
-  padding: 10px;
-  float: left;
-  width: 50%;
-  background-color: aliceblue;
-  text-align: center;
-  border-radius: 20px;
+    border: 5px solid darkblue;
+    border-width: 5px;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px darkblue;
+  }
+
+  #contact-e {
+    margin: 20px;
+  }
+
+  #contact-g {
+    margin: 20px;
+  }
+  #contact-p {
+    margin: 20px;
+  }
+
+  p a:hover {
+    color: yellow;
   }
