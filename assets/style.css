@@ -72,12 +72,14 @@
     
   /* Class selector */
   .box-info-text {
+    display: inline-flex;
     font-weight: normal;
+    text-align: center;
   }
   
   /* ID selector */
   #contact-details {
-  margin: 50px;
+    margin: 50px;
   border: 5px solid darkblue;
   border-width: 5px;
   padding: 10px;
